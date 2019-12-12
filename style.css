@@ -1,0 +1,82 @@
+body{
+    width: 100wv;
+    src: url(https://fonts.google.com/specimen/Raleway); 
+
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 100%; 
+    text-align: center;
+        
+}    
+
+
+div.flex-item {
+    display: flex;
+    width: 43%;
+    margin: 26px 10px;
+    border: 1px solid black;
+    padding-top: 9px;
+  
+}
+
+div.imagens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.usuario{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+
+}
+
+.redes-sociais img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 20px;
+  
+}
+
+div.textos{
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 15px;
+    font-family: "Raleway";
+
+}
+
+h2{
+    font-size: 25px;
+    font-style: bold;
+
+}
+h3{
+    font-size: 15px;
+    font-style: unset;
+}
+
+button{
+    padding: 10px;
+    width: 110px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: chocolate;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+
+
